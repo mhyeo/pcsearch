@@ -1,0 +1,33 @@
+<script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+
+<script src="scripts.js"></script>
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>pcSearch</title>
+</head>
+<body>
+	<h1>My Podcasts</h1>
+
+	<h1>pcSearch</h1>
+	<div>
+		<button onclick="getTop50()">Get Top 50</button>
+	</div>
+	<div>
+		<input type="text" id="query" placeholder="Find Podcasts!">
+		<button onclick="search()">Search</button>
+	</div>
+	<table id="results">
+		<tr>
+			<th>Title</th>
+			<th>Description</th>
+			<th>Subscribers</th>
+			<th>Sub</th>
+		</tr>
+	</table>
+</body>
+</html>
